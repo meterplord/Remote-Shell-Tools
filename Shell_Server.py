@@ -8,6 +8,8 @@ port = 7771
 
 
 baglanti=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+print("Bütün komutlar: msf {yazılmak istenen mesaj} computername--> bilgisayar bileşneleri bilgisi ")
+print("dir cls ipconfig whoami arp -a getmac systeminfo trash control_panel printers font godmode")
 baglanti.bind((host, port))
 print("dinleniyor ",host,port)
 baglanti.listen(5)
