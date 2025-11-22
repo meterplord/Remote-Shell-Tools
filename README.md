@@ -10,5 +10,6 @@ Remote-Shell-Tools
 - Admin gerekmez (persistence ve tüm komutlar normal kullanıcıyla çalışır)
 - Tek dosya, tek .exe (pyinstaller ile kolayca derlenir)
 #Kullanım
-önce Shell_server.py yi çalıştırın
+önce pip install colorama==0.4.6 yazarak gerekli kütüphaneleri indirin
+Shell_server.py yi çalıştırın
 sonrada Shell_client.py(istemci) bu ise exe haline getireceğiniz kısımdır
